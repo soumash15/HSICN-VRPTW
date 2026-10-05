@@ -72,6 +72,17 @@ reproducible.
 The solutions reported in the paper, the per-run results and an independent feasibility checker
 are provided in the supplementary material of the article (Supplementary Data 1).
 
+## Reference solver (HGS)
+
+`reference_solver/pyvrp_run.py` runs the hybrid genetic search (HGS) of the open-source solver
+[PyVRP](https://github.com/PyVRP/PyVRP) (version 0.14.0) under the same hierarchical objective, as used
+for the comparison in the paper (170 s per run, seeds 1-3):
+
+```
+pip install pyvrp==0.14.0
+python reference_solver/pyvrp_run.py ./solomon ./results_hgs 170 R101,C201 1,2,3
+```
+
 ## Citation
 
 If you use this code, please cite the article above.
