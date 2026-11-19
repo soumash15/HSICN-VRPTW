@@ -4,9 +4,9 @@ HSICN -- Hierarchical Swarm Intelligence with Chaos Network for the
 Vehicle Routing Problem with Time Windows (VRPTW).
 
 Reference implementation of the method described in
-  M. Soumya Krishnan and Vimina E. R., "Hierarchical Swarm Intelligence with Chaos
-  Network (HSICN): A Cyclic Collaborative Framework for Solving Vehicle Routing
-  Problem with Time Windows", Scientific Reports (under review).
+   M. Soumya Krishnan and Vimina E. R., "A cyclic hierarchical swarm intelligence
+  framework with a chaos network for the vehicle routing problem with time windows",
+  Scientific Reports (under review).
 
 Framework
   Phase 0  Solomon I1 construction + enhanced local search (ELS).
